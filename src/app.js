@@ -13,7 +13,6 @@ app.use("/",authrouter);
 app.use("/",router);
 app.use("/",secureroute);
 app.use("/profile",router1);
-// app.use("/profile",router1);
 
 module.exports=app;
 
